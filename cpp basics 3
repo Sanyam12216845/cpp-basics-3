@@ -1,0 +1,50 @@
+//Arrays 
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main(){
+	int arr[5]={10,20,30,40,50};
+	cout<<"The given array is :"<<arr[3]<<endl;  //for printing any one element in array
+	int arr1[6]={2,4,6,7,9,10};
+	int i;
+	for(int i=0;i<6;i++){
+		cout<<"The given values of an array are :"<<arr1[i]<<endl; // for printing the array at one time all the values of array
+		
+	}
+	int b[2][2],p,j;
+	cout<<"Enter array elements:"<<endl;
+
+	for(int p=0;p<=1;p++){
+		for(int j=0;j<=1;j++){
+		cin>>b[p][j];
+			
+		}
+	
+	}
+	cout<<"\nEnter array elements:\n"<<endl;
+
+	for(int p=0;p<=1;p++){
+		for(int j=0;j<=1;j++){
+		
+		cout<<b[p][j]<<ends;  // printing array in matrix form 
+			
+		}
+		cout<<endl;
+	
+	}
+	
+	char str[]="Jyoti";
+	char str2[]="Sanyam";
+	cout<<str<<endl;
+	int g=strlen(str);
+	cout<<"The length of string is :"<<g<<endl;
+	strrev(str);
+	cout<<"Reversed string is :"<<str<<endl;
+	strcat(str ,str2);
+	cout<<"The concatenated strings are :"<<str<<endl;
+	
+
+	
+	
+	return 0;
+}
